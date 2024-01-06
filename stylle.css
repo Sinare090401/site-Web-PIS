@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1517px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 100%;
+}
+
+.connexion {
+    background-color: #4285f4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+main {
+    margin-top: 10px; /* Ajuster selon le besoin */
+}
+
+.owl-carousel {
+    margin-top: 10px; /* Ajuster selon le besoin */
+}
+
+.owl-item img {
+    width: 100%;
+    height: auto;
+}
